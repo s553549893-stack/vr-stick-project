@@ -1,1 +1,39 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VR Stick Project</title>
+  <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene background="color: #101020">
+    <a-plane
+      rotation="-90 0 0"
+      width="20"
+      height="20"
+      color="#333333">
+    </a-plane>
+
+    <a-cylinder
+      position="0 1 -2"
+      radius="0.06"
+      height="1.2"
+      color="#00FFAA">
+    </a-cylinder>
+
+    <a-text
+      value="VR STICK PROJECT"
+      position="0 2 -3"
+      align="center"
+      color="#FFFFFF">
+    </a-text>
+
+    <a-entity position="0 1.6 0">
+      <a-camera></a-camera>
+    </a-entity>
+  </a-scene>
+</body>
+</html>
+
